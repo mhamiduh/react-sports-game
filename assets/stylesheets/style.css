@@ -1,0 +1,50 @@
+body {
+  background-color: blue;
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+ 
+}
+
+.Team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 25rem;
+  }
+  
+  .verses{
+    display: flex;
+    font-style: italic;
+    font-family: againtsregular, oswald, sans-serif;
+    color: #fc0;     
+    
+  }
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .App{
+    display: center;
+    color: brown;
+    font-style: oblique;
+  }
+ 
+  button {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #fc0;
+    border: 0;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 0 black;
+  }
+  .Game{
+    text-align: center;
+
+  }
